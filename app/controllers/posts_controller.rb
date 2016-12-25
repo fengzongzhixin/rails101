@@ -17,9 +17,10 @@ class PostsController < ApplicationController
     else
       render :new
     end
+  def edit
+  end
+  
 end
-
-
 private
 
   def post_params
